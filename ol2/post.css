@@ -1,0 +1,107 @@
+#sidebar{
+	width:24%;
+	padding:2% 2%;
+	min-height:400px;
+	background-color:#212529;
+	margin-bottom:20px;	
+	float:left;
+}
+#sidebar h3{
+	width:100%;
+	color:#f1f1f1;
+	text-align:center;
+	margin:0 auto 15px auto;
+	padding:0 0 8px 0;
+	font-weight:400;
+	border-bottom:1px solid #555;
+}
+#sidebar h4{
+	color:#83bc02;
+	font-size:15px;	
+}
+#sidebar  ul{
+	margin:0 0 35px 0;
+	list-style:none;
+	padding:0 0 20px 0;	
+}
+#sidebar  ul li{
+	color:#dedede;
+	font-size:14px;
+	line-height:20px;
+	font-weight:400;	
+	float:left;
+	width:100%;
+	padding:20px 0;
+	border-bottom:1px solid #444;
+	text-align:center;
+}
+#sidebar  ul li a{
+	color:#dedede;
+	transition:ease 0.25s;	
+}
+#sidebar  ul li a:hover{
+	color:#83bc02;		
+}
+#post{
+	width:67%;
+	float:right;
+	min-height:300px;
+	color:#323232;
+}
+#post .title{
+	font-size:22px;	
+	line-height:1.4em;
+	color:#323232;
+	margin:0 0 50px 0;	
+}
+#post .content img{
+	display:block;
+	margin:20px auto;	
+}
+#post .content{
+	width:100%;
+	padding-bottom:15px;
+	border-bottom:1px solid #dedede;	
+	color: #666;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+#post .content p{ margin: 1em 0 2em; }
+#post .social{
+	height:30px;
+	width:100%;
+	margin:10px 0 30px 0;	
+}
+#post .social a{
+	display:block;
+	padding:0 15px 0 40px;
+	height:30px;
+	float:left;
+	background-size:contain;
+	line-height:30px;
+	font-size:14px;
+	color:#fefefe;
+}
+#post .facebook{	background:#3c5a9a url("facebook-hover.png") left center no-repeat; width:auto !important;	}
+#post .twitter{	background:#2daae1 url("twitter-hover.png") left center no-repeat; margin:0 20px; width:auto !important;	}
+#post .googleplus{	background:#f63e28 url("") left center no-repeat; width:auto !important;	}
+#post .linkedin{	background:#0173b2 url("linkedin-hover.png") left center no-repeat; margin:0 0 0 20px; width:auto !important;	}
+@media only screen and (max-width: 480px){
+#sidebar{
+	display:none;	
+}
+#post{
+	width:94%;
+	padding:0 3%;
+}
+#post h3{
+	font-size:0.9em;	
+}
+#post img{
+	width:92%;	
+}
+#post .twitter, #post .linkedin{
+	margin:0 8px;
+}
+}
