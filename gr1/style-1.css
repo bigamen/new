@@ -1,0 +1,16 @@
+/*
+Theme Name: Envince Child
+Theme URI: https://themegrill.com/themes/envince/
+Template: envince
+Author: ThemeGrill
+Author URI: https://themegrill.com
+Description: Envince is bootstrap 3 powered magazine wp theme to make your site look good. Create powerful magazine site with drag and drop editing features. Get free support here: https://themegrill.com/support-forum/forum/envince-free/ and check demo here: https://demo.themegrill.com/envince
+Tags: one-column,two-columns,three-columns,custom-background,custom-header,custom-menu,custom-colors,featured-images,left-sidebar,right-sidebar,post-formats,rtl-language-support,threaded-comments,translation-ready,footer-widgets,theme-options
+Version: 1.1.8.1511961189
+Updated: 2017-11-29 13:13:09
+
+*/
+
+p.comments-closed {
+   display: none !important;
+}
