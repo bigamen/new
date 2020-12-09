@@ -1,0 +1,116 @@
+.jcarousel-skin-ie7 .jcarousel-container {
+    height: 581px;
+}
+
+
+.jcarousel-skin-ie7 .jcarousel-container-vertical {
+    width: 90px;
+    height: 640px;
+}
+
+
+.jcarousel-skin-ie7 .jcarousel-clip-vertical {
+    width:  92px; /* */
+    height: 585px;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item {
+    width: 90px; /* */
+    height: 135px;
+    border: 1px solid #E4E4E4;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item:hover {
+    border-color: #808080;
+}
+
+
+.jcarousel-skin-ie7 .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+
+.jcarousel-skin-ie7 .jcarousel-item-placeholder {
+}
+
+@media screen and (max-width: 768px) 
+{
+	
+.jcarousel-skin-ie7 li {
+	width: 66px !important;
+	height:99px;
+}
+
+.jcarousel-skin-ie7 li img {
+	width: 66px !important;
+	height:99px;
+}
+
+}
+
+/**
+ *  Vertical Buttons
+ */
+.jcarousel-skin-ie7 .jcarousel-next-vertical {
+
+	margin-top: 6px;
+    width: 28px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 5px;
+    height: 38px;
+    cursor: pointer;
+    background: url("nav_bottom.png") no-repeat 0 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-next-vertical:hover {
+/*    background-position: 0 -32px;*/
+}
+
+.jcarousel-skin-ie7 .jcarousel-next-vertical:active {
+/*    background-position: 0 -64px;  */
+}
+
+.jcarousel-skin-ie7 .jcarousel-next-disabled-vertical,
+.jcarousel-skin-ie7 .jcarousel-next-disabled-vertical:hover,
+.jcarousel-skin-ie7 .jcarousel-next-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px; 
+}
+
+.jcarousel-skin-ie7 .jcarousel-prev-vertical {
+	margin-top: 6px;
+    width: 28px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -40px;
+    height: 38px;
+    cursor: pointer;
+    background: url("nav_top.png") no-repeat 0 0;
+}
+
+.jcarousel-skin-ie7 .jcarousel-prev-vertical:hover {
+/*    background-position: 0 -32px; */
+}
+
+.jcarousel-skin-ie7 .jcarousel-prev-vertical:active {
+/*    background-position: 0 -64px;   */
+}
+
+ul#mycarousel li img
+{
+    cursor:pointer;
+}
+
+.jcarousel-skin-ie7 .jcarousel-prev-disabled-vertical,
+.jcarousel-skin-ie7 .jcarousel-prev-disabled-vertical:hover,
+.jcarousel-skin-ie7 .jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px; 
+    display:none;
+}
+
+
